@@ -57,7 +57,7 @@
             
     
     // Operator PhP
-    
+    echo "<h3>Operator Logika</h3>";
     $a = 5;
     $b = 2;
     
@@ -89,12 +89,12 @@
     // Pangkat
     $c = $a ** $b;
     echo "$a ** $b = $c";
-    echo "<br>";
+    echo "<hr>";
     
             
     
     // Operator Penugasan
-    
+    echo "<h3>Operator Penugasan</h3>";
     $x  = 83;
     $x = $x + 10; // output 83 + 10;
     
@@ -109,10 +109,10 @@
     
     $m += 30;
     echo "40 + 30 = $m";
-    echo "<br>";
+    echo "<hr>";
     
     // Operator Increment & Decrement
-    
+    echo "<h3>Operator Increment dan Decrement</h3>";
     // $score = 0;
     
     // $score++;
@@ -155,7 +155,7 @@
     echo "<hr>";
     
     // Operator Relasi dan Perbandingan 
-    
+    echo "<h3>Operator Relasi dan Perbandingan</h3>";
     $q = 6;
     $w = 2;
     
@@ -195,7 +195,7 @@
     echo "<hr>";
     
     // Latihan Op Relasi
-    
+    echo "<h3>Latihan Operator Relasi</h3>";
     $nilai1 = 17;
     $nilai2 = 20;
     
@@ -235,7 +235,7 @@
     echo "<hr>";
     
     // Operator Logika 
-    
+    echo "<h3>Operator Logika</h3>";
     $first = true;
     $second = false;
     
@@ -254,12 +254,14 @@
     
     // Operator Ternary 
     // Kamu suka aku??]
+    echo "<h3>Operator Ternary</h3>";
     $suka = true;
     
     $jawab = $suka ? "iya" : "tidak";
     echo "$jawab"; // output "iya";
     echo "<hr>";
     
+    echo "<h3>Latihan Operator Ternary</h3>";
     $belajar = true;
     
     if ( $belajar == true ) {

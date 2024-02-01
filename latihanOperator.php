@@ -1,5 +1,6 @@
 <?php
     // Mencari Luas Segitiga 
+    echo "<h3>Mencari Luas Segitiga</h3>";
     $alas = 10;
     $tinggi = 24;
     
@@ -11,6 +12,7 @@
     echo "<hr>";
     
     // Mencari Luas Persegi
+    echo "<h3>Mencari Luas Persegi</h3>";
     $sisi = 4;
     
     // Rumus 
@@ -21,6 +23,7 @@
     echo "<hr>";
     
     // Mencari Luas Lingkaran
+    echo "<h3>Mencari Luas Lingkaran</h3>";
     $jariJari = 8;
     
     // Rumus 
@@ -31,13 +34,13 @@
     echo "<hr>";
     
     // Perbandingan Angka 19 dan 20
-        
+    echo "<h3>Perbandingan Angka 19 dan 20</h3>";
     $q = 19;
     $w = 20;
     
     // >
     $e = $q > $w;
-    echo "$q > $w = $e";
+    echo "$q > $w = $e 0";
     echo "<br>";
     
     // <
@@ -49,7 +52,7 @@
     // =
     
     $e = $q == $w;
-    echo "$q == $w = $e";
+    echo "$q == $w = $e 0";
     echo "<br>";
     
     // tidak sama dengan
@@ -61,7 +64,7 @@
     // lebih besar sama dengan
     
     $e = $q >= $w;
-    echo "$q >= $w = $e";
+    echo "$q >= $w = $e 0";
     echo "<br>";
     
     // lebih kecil sama dengan
@@ -69,5 +72,4 @@
     $e = $q <= $w;
     echo "$q <= $w = $e";
     echo "<hr>";
-    
 ?>
