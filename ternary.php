@@ -53,10 +53,10 @@
     
     // Ternary Perbandingan
     echo "<h3>Ternary Perbandingan</h3>";
-    $x = 20;
-    $y = 30;
+    $x = 50;
+    $y = 50;
     
-    $z = ($x == $y) ? "Nilai Sama" : (($x > $y) ? "lebih besar x" : (($x < $y) ? "lebih besar y" : "Tidak ada"));
+    $z = ($x == $y) ? "nilai sama" : (($x > $y) ? "lebih besar x" : (($x < $y) ? "lebih besar y" : "Tidak ada"));
     echo "Jika x = $x, dan y = $y, maka $z";
     echo "<hr>";
 ?>
