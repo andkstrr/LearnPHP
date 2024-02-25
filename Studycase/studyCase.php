@@ -1,25 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 <?php
-
-/*
-A > 85
-B > 68
-C > 56
-D > 45
-E < 45
-
-A, B, C Lulus
-*/
-$nilai = 54;
-
-if ($nilai > 85){
-    echo "A, Lulus";
-} else if ($nilai > 68){
-    echo "B, Lulus";
-} else if ($nilai > 56){
-    echo "C, Lulus";
-} else if ($nilai > 45){
-    echo "D, Lulus";
-} else {
-    echo "E, Tidak Lulus";
-}    
+    // Boolean True False
+    // Apabila Value diubah menjadi false, output tidak muncul
+    echo "<h2>Boolean</h2>";
+    $baju = true;
+    
+    if($baju){
+        echo "Variable baju bernilai true"; 
+    }
+    echo "<hr>";
+    // Menghitung nilai dan menentukan grade sebuah nilai
+    echo "<h2>Menghitung Nilai dan Grade Nilai</h2>";
+    $nilai = 85;
+    
+    if ( $nilai <= 100  ) {
+        echo "Nilai anda $nilai, ";
+        if ( $nilai <= 100 ) {
+            echo "Anda mendapat Grade A.";
+        } 
+    } else if ( $nilai >= 90 ) {
+        echo "Nilai anda $nilai, ";
+        if ( $nilai >= 90 ) {
+            echo "Anda mendapat Grade B.";
+        }
+    }  else if ( $nilai >= 80 ) {
+        echo "Nilai anda $nilai, ";
+        if ( $nilai >= 80 ) {
+            echo "Anda mendapat Grade C.";
+        }
+    } else {
+        echo "Nilai anda $nilai, ";
+        if ( $nilai < 80 ) {
+            echo "Maaf anda Remedial :(";
+        }
+    }
+    echo "<hr>";
 ?>
+</body>
+</html>
