@@ -175,3 +175,30 @@ do {
     $c+=5;
 } while ($c <=100);
 ?>
+
+
+for ( $q = 1; $q >= 50; $++) {
+    echo $q;
+}
+
+$f = 1;
+
+while ($f >= 50){
+    echo $f;
+    $f++;
+}
+
+$u = 1;
+
+do {
+    echo $u;
+    $u++;
+} while ($u >= 50);
+
+echo "<h3>Membuat KTP</h3>";
+    $age = 23;
+    
+    $approve = $age >= 17 ? "Buat KTP" : "Belum Cukup Umur";
+    echo "Jika kita berumur $age apakah kita boleh membuat KTP? <br> =$approve";
+    echo "<hr>";
+    

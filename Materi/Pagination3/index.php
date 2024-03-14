@@ -16,7 +16,7 @@
     
     <div class="menu">
         <ul>
-            <li> <a  a href="index.php?page=home">HOME</a></li>
+            <li> <a href="index.php?page=home">HOME</a></li>
             <li> <a href="index.php?page=tentang">TENTANG</a></li>
             <li> <a href="index.php?page=tutorial">TUTORIAL</a></li>
         </ul>
@@ -42,7 +42,7 @@
             echo "<center><h1>Maaf Halaman Tidak Tersedia</h1></center>";
         }
     } else {
-        include "halaman/home.php";
+        include 'home.php';
     }
     ?>
 </div>
