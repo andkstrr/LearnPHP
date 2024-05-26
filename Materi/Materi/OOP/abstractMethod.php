@@ -42,7 +42,7 @@ $harimau = new Harimau();
 echo $harimau->suara();
 echo "<br>";
 echo $harimau->makanan();
-*/
+
 
 interface Hewan {
     public function suara();
@@ -70,3 +70,32 @@ echo "<br>";
 echo $harimau->makanan();
 echo "<br>";
 echo $harimau->intro();
+*/
+
+
+interface Makanan {
+    // public static $nama;
+    public static function detailMenu();
+    public static function detailHarga();
+}
+
+class Risol implements Makanan {
+    public static $nama = "Risol";
+    public static $harga = 20000;
+
+    public  function __construct($nama) {
+        self::$nama = $nama;
+    }
+    public static function detailMenu() {
+        echo 'Makanan ini namanya : ' . self::$nama;
+    }
+    public static function detailHarga() {
+        echo 'Harga makanan : ' . self::$nama . " seharga : " . self::$harga;
+    }
+}
+
+$risol = new Risol('Martabak');
+echo "<br>";
+$risol->detailMenu();
+echo "<br>";
+$risol->detailHarga();
